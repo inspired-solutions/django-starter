@@ -18,8 +18,8 @@
 
 ## Branch usage:
 
-- For startproject `django-admin startproject --extension=py,md,env --template=https://github.com/SrFuego/django-starter/archive/PROJECT_BRANCH.zip PROJECT_NAME`
-- For startapp `django-admin startapp --template=https://github.com/SrFuego/django-starter/archive/APP_BRANCH.zip APP_NAME`
+- For startproject `django-admin startproject --extension=py,md,env --template=https://github.com/inspired-solutions/django-starter/archive/PROJECT_BRANCH.zip PROJECT_NAME`
+- For startapp `django-admin startapp --template=https://github.com/inspired-solutions/django-starter/archive/APP_BRANCH.zip APP_NAME`
 
 ## Dependencies:
 
@@ -41,7 +41,7 @@
 - `virtualenv venv -p /path/to/python` # Create virtualenv
 - `source venv/bin/activate` # Activate virtualenv
 - `pip install django`
-- `django-admin startproject --extension=py,md,env --template=https://github.com/SrFuego/django-starter/archive/PROJECT_BRANCH.zip PROJECT_NAME` # Create project from template
+- `django-admin startproject --extension=py,md,env --template=https://github.com/inspired-solutions/django-starter/archive/PROJECT_BRANCH.zip PROJECT_NAME` # Create project from template
 - `cd PROJECT_NAME`
 - `pip install pip-tools`
 - `pip-compile -r requirements/develop.in -o requirements-DATE.develop` # Generates a requirements file with the latest version of the dependencies up to the current date
